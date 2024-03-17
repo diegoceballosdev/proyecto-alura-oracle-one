@@ -1,0 +1,132 @@
+body{
+    background-image: url(https://w.forfun.com/fetch/53/53db250f6e245fa7ec1d961be842d68a.jpeg);
+}
+
+/* encaezado */
+.titulo{
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    left: 35%;
+    right: 35%;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+
+.barra-separadora{
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    top: 25px;
+    left: 10%;
+    right: 10%;
+    font-size: 25px;
+}
+
+/* indicadores */
+
+.Reglas{
+    color: #ffffff;
+}
+h2{
+    position: absolute;
+    top: 50%;
+    left:16%;
+    right: 50%;
+    font-size: 2em;
+}
+
+.indicador-1{
+    position: absolute;
+    top: 60%;
+    left: 17%;
+    right: 50%;
+    font-size: 25px;
+}
+
+.indicador-2{
+    position: absolute;
+    top: 65%;
+    left: 17%;
+    right: 50%;
+    font-size: 25px;
+}
+
+/* Relacionado a la edscritura del texto */
+.texto-principal{
+    position: absolute;
+    padding: 10px 100px 10px 10px;
+    top: 70%;
+    left: 15%;
+    right: 50%;
+    border: 4px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.encriptacion{
+    position: absolute;
+    font-size: 2em;
+    padding: 10px ;
+    left: 15%;
+    right: 70%;
+    top: 80%;
+    background: rgb(53, 107, 151);
+    color: black;
+    border: 4px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.desencriptar{
+    position: absolute;
+    font-size: 2em;
+    padding: 10px;
+    left: 35%;
+    right: 50%;
+    top: 80%;
+    background: rgb(53, 107, 151);
+    color: black;
+    border: 4px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* texto encriptado y copiar */
+
+.texto-encriptado{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    right: 15%;
+    color: #000000;
+    border: 5px solid black;
+    border-radius: 30px;
+    background: white;
+    padding: 10px 50px 280px 10px;
+    font-size: 30px;
+}
+
+.imagen-copiar{
+    position: absolute;
+    top: 45%;
+    left:60% ;
+    right: 20%;
+    width: 20%;
+}
+
+.copiar{
+    position: absolute;
+    font-size: 2em;
+    padding: 10px;
+    left: 60%;
+    right: 20%;
+    top: 80%;
+    background: rgb(53, 107, 151);
+    color: black;
+    border: 4px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
